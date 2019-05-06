@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #161616;
+  color: #ffffff;
+  line-height: 1.3;
+  overflow-x: hidden;
+}
+
+/* Logo Section */
+
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 0.3rem 0 0.3rem 0;
+}
+
+/* Navbar */
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #020202;
+  padding: 20px 0 20px 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  transition: all 0.3s ease-in;
+}
+
+.main-nav a:hover {
+  background: #ffffff;
+  color: #242424;
+  border-radius: 10px;
+}
+
+.showcase {
+  background: url("/img/img1.jpg");
+  position: relative;
+  opacity: 0.9;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.showcase-text {
+  display: flex;
+  height: 100vh;
+  width: 18rem;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10rem;
+}
+
+.showcase-text h1 {
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+
+.showcase-text a {
+  background: #ffffff;
+  width: 7rem;
+  color: #242424;
+  margin-top: 1rem;
+  padding: 0.6rem 0 0.6rem 0;
+  text-decoration: none;
+  border: 0;
+  text-align: center;
+  transition: all 0.7s ease-in;
+}
+
+.showcase-text a:hover {
+  font-weight: bold;
+}
+
+/*Info Section*/
+
+.cheading {
+  text-align: center;
+  margin: 3rem;
+}
+
+.subcategory_a,
+.subcategory_b {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.a1,
+.a2,
+.b1,
+.b2 {
+  width: 30%;
+  margin-bottom: 5rem;
+  margin-left: 2rem;
+}
+
+.roominfo {
+  display: flex;
+  flex-direction: row;
+}
+
+.roominfo img {
+  border-radius: 100px;
+  border: 5px solid #ffffff;
+  margin-right: 1rem;
+}
+
+.roominfo p {
+  padding: 10px 0 10px 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  width: 50%;
+}
+
+/* Section Info-2 */
+
+.whatroom {
+  background: url("/img/img2.jpg");
+  position: relative;
+  opacity: 0.9;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.whatroom h1 {
+  text-align: center;
+  padding: 3rem 0 3rem 0;
+  font-size: 2rem;
+}
+
+.whatitems {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.whoroom h1 {
+  text-align: center;
+  padding: 3rem 0 3rem 0;
+  font-size: 2rem;
+}
+
+.whoitems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center justify;
+}
+
+.whoitems img {
+  border: 2px solid #ffffff;
+}
+
+.item-y,
+.item-x {
+  width: 20%;
+  padding-bottom: 2rem;
+}
+
+.item-y h4 {
+  padding-bottom: 0.5rem;
+}
+
+.item-x,
+.item-y {
+  padding-right: 1rem;
+}
+
+.item-x h4 {
+  padding-bottom: 1rem;
+}
+
+.item-x p {
+  font-size: 1rem;
+}
+
+.sec-items {
+  padding-bottom: 1rem;
+}
+
+/* Carousal */
+
+.slidehead {
+  padding: 2rem 0 2rem 0;
+  background: #020202;
+  text-align: center;
+}
+
+.slide {
+  background: #020202;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.slidetext {
+  width: 50%;
+}
+
+.slideimg img {
+  border-radius: 100px;
+  border: 5px solid #ffffff;
+  margin: 0 1rem 0 5rem;
+}
+
+/* Portfolio */
+
+.portfolio {
+  background: url("/img/img3.jpg");
+  position: relative;
+  opacity: 0.9;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 350px;
+}
+
+.portfolio h1 {
+  text-align: center;
+  padding-top: 2.5rem;
+  font-size: 2rem;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 250px;
+}
+
+/* contact details */
+
+.contact h1 {
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+  font-size: 2rem;
+}
+
+.contact-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cdetails {
+  padding: 3rem 0 3rem 0;
+  text-align: center;
+}
+
+/* footer */
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background: #020202;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  /* Navbar */
+
+  .main-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #020202;
+  }
+
+  /* showcase */
+
+  .showcase-text {
+    margin-left: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  /* Info Section */
+
+  .subcategory_a,
+  .subcategory_b {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .a1,
+  .a2,
+  .b1,
+  .b2 {
+    width: 80%;
+  }
+
+  .icons {
+    width: 80%;
+  }
+
+  .whoitems {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .item-x {
+    text-align: center;
+    width: 80%;
+    padding: 1rem;
+  }
+
+  .whatitems {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .item-y {
+    text-align: center;
+    width: 80%;
+    padding: 1rem;
+  }
+
+  .portfolio {
+    height: 350px;
+  }
+
+  .clients,
+  .contact-details,
+  .social-media {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slide {
+    display: flexbox;
+    flex-direction: column;
+  }
+}
